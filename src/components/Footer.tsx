@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -57,8 +57,14 @@ const Footer = () => {
 
       <div className="flex items-center justify-center font-jost font-light text-center text-darkGray text-xs md:text-lg">
         <p className="w-[300px] md:w-full">
-          Copyright © Vanessa Maria Valaski | Designed and coded by Fernanda
-          Souza
+          Copyright © Vanessa Maria Valaski | Designed and coded by
+          <Link
+            href="https://fernandasouza.vercel.app/"
+            target="_blank"
+            className="underline"
+          >
+            Fernanda Souza
+          </Link>
         </p>
       </div>
     </footer>

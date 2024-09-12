@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
+import { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 // Logo component
 const Logo = () => (
@@ -40,7 +40,7 @@ const MobileMenu = ({
 }) => (
   <div
     className={`fixed top-0 right-0 h-full bg-bgBeige text-darkBlue z-50 px-4 pt-20 flex flex-col gap-4 items-start justify-start transform ${
-      isOpen ? "translate-y-0" : "-translate-y-full"
+      isOpen ? 'translate-y-0' : '-translate-y-full'
     } transition-transform w-[260px] md:hidden`}
   >
     <button onClick={onClose} className="absolute top-4 right-4">
@@ -68,7 +68,7 @@ const NavLinks = ({ onLinkClick }: { onLinkClick?: () => void }) => (
       Projetos
     </Link>
     <Link
-      href="/service"
+      href="/services"
       className="text-lg font-normal hover:text-gold"
       onClick={onLinkClick}
     >

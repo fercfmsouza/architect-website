@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Vanessa Maria Valaski",
   description: "Arquitetura e Interiores",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

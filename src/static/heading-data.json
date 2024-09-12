@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Sobre nós",
+    "subtitle": "Home/ Sobre",
+    "href": "/about",
+    "image": "/images/bg-about.png"
+  },
+  {
+    "title": "Serviços",
+    "subtitle": "Home/ Serviços",
+    "href": "/services",
+    "image": "/images/bg-services.png"
+  },
+  {
+    "title": "Projetos",
+    "subtitle": "Home/ Projetos",
+    "href": "/projects",
+    "image": "/images/bg-projects.png"
+  },
+  {
+    "title": "Contato",
+    "subtitle": "Home/ Contato",
+    "href": "/contact",
+    "image": "/images/bg-contact.png"
+  }
+]

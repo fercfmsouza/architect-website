@@ -1,10 +1,10 @@
-import Link from "next/link";
-import { Button } from "./ui/button";
-import Image from "next/image";
+import Link from 'next/link';
+import { Button } from './ui/button';
+import Image from 'next/image';
 
 const CTASection = () => {
   return (
-    <div className="flex flex-col px-8 py-12 gap-11 text-center md:flex-row md:text-left md:items-center md:gap-12 md:px-[170px] md:py-[135px]">
+    <div className="flex flex-col px-8 py-12 gap-11 text-center lg:flex-row md:text-left md:items-center md:gap-12 md:px-[170px] md:py-[135px]">
       <div className="flex flex-col gap-10 items-center md:justify-center md:items-start md:flex-1">
         <h2 className="font-dm text-bgBlue text-3xl md:text-6xl">
           Criamos a Arte de Viver com Estilo

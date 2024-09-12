@@ -39,6 +39,7 @@ const config = {
         jost: "Jost",
         dm: "DM Serif Display",
       },
+
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

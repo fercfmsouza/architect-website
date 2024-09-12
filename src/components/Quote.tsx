@@ -1,6 +1,6 @@
 const Quote = () => {
   return (
-    <div className="flex flex-col gap-4 p-8 items-center">
+    <div className="flex flex-col gap-4 p-8 items-center lg:gap-[150px] xl:px-[370px]">
       <span className="font-dm italic text-darkBlue text-6xl">&quot;</span>
       <h2 className="font-dm text-lg text-darkBlue italic">
         I like an interior that defies labeling. I don&apos;t really want
