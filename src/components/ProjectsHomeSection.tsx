@@ -1,25 +1,25 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 const projects = [
   {
-    img: "/images/project-1.png",
-    title: "Casa Marrom",
-    subtitle: "Arquitetura",
+    img: '/images/project-1.png',
+    title: 'Casa Marrom',
+    subtitle: 'Arquitetura',
   },
   {
-    img: "/images/project-2.png",
-    title: "Suíte Master",
-    subtitle: "Design de Interiores",
+    img: '/images/project-2.png',
+    title: 'Suíte Master',
+    subtitle: 'Design de Interiores',
   },
   {
-    img: "/images/project-3.png",
-    title: "Cozinha Moderna",
-    subtitle: "Design de Interiores",
+    img: '/images/project-3.png',
+    title: 'Cozinha Moderna',
+    subtitle: 'Design de Interiores',
   },
   {
-    img: "/images/project-4.png",
-    title: "Casa de Pedra",
-    subtitle: "Arquitetura",
+    img: '/images/project-4.png',
+    title: 'Casa de Pedra',
+    subtitle: 'Arquitetura',
   },
 ];
 
@@ -30,28 +30,24 @@ const ProjectsHomeSection = () => {
         <h2 className="font-dm text-bgBlue text-3xl md:text-6xl">
           Confira nossos Projetos
         </h2>
-        <p className="text-darkGray text-normal font-light md:text-xl">
-          It is a long established fact that a reader will be distracted by the
-          of readable content of page lookings at its layouts points.
-        </p>
       </div>
 
       <div className="flex flex-col gap-12 lg:flex-row lg:flex-wrap lg:justify-center">
         {projects.map((project, index) => {
           // Determine the border radius class based on the index
-          let borderRadiusClass = "";
+          let borderRadiusClass = '';
           switch (index) {
             case 0:
-              borderRadiusClass = "rounded-tr-[70px]";
+              borderRadiusClass = 'rounded-tr-[70px]';
               break;
             case 1:
-              borderRadiusClass = "rounded-tl-[70px]";
+              borderRadiusClass = 'rounded-tl-[70px]';
               break;
             case 2:
-              borderRadiusClass = "rounded-br-[70px]";
+              borderRadiusClass = 'rounded-br-[70px]';
               break;
             case 3:
-              borderRadiusClass = "rounded-bl-[70px]";
+              borderRadiusClass = 'rounded-bl-[70px]';
               break;
           }
 

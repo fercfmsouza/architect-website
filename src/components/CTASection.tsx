@@ -10,9 +10,10 @@ const CTASection = () => {
           Criamos a Arte de Viver com Estilo
         </h2>
         <p className="text-darkGray text-normal font-light md:text-xl">
-          It is a long established fact that a reader will be distracted by the
-          of readable content of a page when lookings at its layouts the points
-          of using that it has a more-or-less normal.
+          Criamos espaços que unem estilo, funcionalidade e conforto. Nossa
+          missão é integrar o ambiente natural com soluções arquitetônicas
+          contemporâneas. Valorizamos cada detalhe, buscando sempre a excelência
+          em cada projeto.
         </p>
         <Link
           href="https://wa.me/5541988451438/?text=Olá Vanessa, gostaria de fazer uma proposta para meu projeto. Como funciona seus serviços?"

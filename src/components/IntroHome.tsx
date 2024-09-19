@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { Button } from "./ui/button";
+import Image from 'next/image';
+import { Button } from './ui/button';
 
 const IntroHome = () => {
   return (
@@ -8,8 +8,7 @@ const IntroHome = () => {
         Sua casa é única
       </h1>
       <p className="text-darkBlue text-base lg:text-xl">
-        There are many variations of the passages of lorem ipsum from avaiable
-        variantions of the demo.
+        Confira nossos projetos.
       </p>
       <Button size="sm" className="flex items-center justify-center gap-4 w-44">
         Projetos

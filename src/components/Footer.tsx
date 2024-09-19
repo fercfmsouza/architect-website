@@ -19,7 +19,7 @@ const Footer = () => {
           <p className="font-jost font-normal text-sm md:text-lg text-darkGray">
             Fique por dentro das nossas redes sociais e conecte-se conosco.
           </p>
-          <div className="flex gap-6">
+          <div className="flex gap-6 items-center">
             <Link href="https://www.facebook.com/arqvmv" target="_blank">
               <Image
                 src="../../assets/facebook.svg"
@@ -36,6 +36,17 @@ const Footer = () => {
               <Image
                 src="../../assets/instagram.svg"
                 alt="instagram logo"
+                width={30}
+                height={30}
+              />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/vanessa-maria-valaski-a69273a4/"
+              target="_blank"
+            >
+              <Image
+                src="../../assets/linkedinn.svg"
+                alt="linkedin logo"
                 width={30}
                 height={30}
               />

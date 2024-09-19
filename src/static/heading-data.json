@@ -1,11 +1,5 @@
 [
   {
-    "title": "Sobre nós",
-    "subtitle": "Home/ Sobre",
-    "href": "/about",
-    "image": "/images/bg-about.png"
-  },
-  {
     "title": "Serviços",
     "subtitle": "Home/ Serviços",
     "href": "/services",

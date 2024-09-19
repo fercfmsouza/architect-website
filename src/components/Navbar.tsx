@@ -75,13 +75,6 @@ const NavLinks = ({ onLinkClick }: { onLinkClick?: () => void }) => (
       Serviços
     </Link>
     <Link
-      href="/about"
-      className="text-lg font-normal hover:text-gold"
-      onClick={onLinkClick}
-    >
-      Sobre
-    </Link>
-    <Link
       href="/contact"
       className="text-lg font-normal hover:text-gold"
       onClick={onLinkClick}
