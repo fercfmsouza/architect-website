@@ -1,5 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import FacebookSvg from './svgs/FacebookSvg';
+import InstagramSvg from './svgs/InstagramSvg';
+import LinkedinSvg from './svgs/LinkedinSvg';
 
 const Footer = () => {
   return (
@@ -13,7 +16,7 @@ const Footer = () => {
           className="w-1/3 md:w-[150px]"
         />
         <div className="flex flex-col gap-6 md:gap-8">
-          <h4 className="font-dm font-medium text-xl text-darkBlue">
+          <h4 className="font-dm font-medium text-xl text-darkBlue lg:text-2xl">
             Redes Sociais
           </h4>
           <p className="font-jost font-normal text-sm md:text-lg text-darkGray">
@@ -21,43 +24,32 @@ const Footer = () => {
           </p>
           <div className="flex gap-6 items-center">
             <Link href="https://www.facebook.com/arqvmv" target="_blank">
-              <Image
-                src="../../assets/facebook.svg"
-                alt="facebook logo"
-                width={16}
-                height={25}
-                className="hover:fill-gold"
-              />
+              <FacebookSvg className="text-gray-800 hover:text-gold transition-colors duration-300" />
             </Link>
             <Link
               href="https://www.instagram.com/arquiteturavmv/"
               target="_blank"
             >
-              <Image
-                src="../../assets/instagram.svg"
-                alt="instagram logo"
-                width={30}
-                height={30}
-              />
+              <InstagramSvg className="text-gray-800 hover:text-gold transition-colors duration-300" />
             </Link>
             <Link
               href="https://www.linkedin.com/in/vanessa-maria-valaski-a69273a4/"
               target="_blank"
             >
-              <Image
-                src="../../assets/linkedinn.svg"
-                alt="linkedin logo"
-                width={30}
-                height={30}
-              />
+              <LinkedinSvg className="text-gray-800 hover:text-gold transition-colors duration-300" />
             </Link>
           </div>
         </div>
         <div className="flex flex-col gap-6 md:gap-8">
-          <h4 className="font-dm font-medium text-xl text-darkBlue">Contato</h4>
-          <p className="font-jost text-sm md:text-lg text-darkGray">
-            contact@arqvmv.com
-          </p>
+          <h4 className="font-dm font-medium text-xl text-darkBlue lg:text-2xl">
+            Contato
+          </h4>
+          <a
+            href="mailto:@vanessamariavalaski@gmail.com"
+            className="font-jost text-sm md:text-lg text-darkGray hover:text-gold"
+          >
+            vanessamariavalaski@gmail.com
+          </a>
           <p className="font-jost text-sm md:text-lg text-darkGray">
             (+55) 41 99924-5567
           </p>
@@ -67,12 +59,12 @@ const Footer = () => {
       <hr />
 
       <div className="flex items-center justify-center font-jost font-light text-center text-darkGray text-xs md:text-lg">
-        <p className="w-[300px] md:w-full">
+        <p className="flex justify-center gap-1 w-[300px] md:w-full">
           Copyright © Vanessa Maria Valaski | Designed and coded by
           <Link
             href="https://fernandasouza.vercel.app/"
             target="_blank"
-            className="underline"
+            className="underline hover:text-gold"
           >
             Fernanda Souza
           </Link>

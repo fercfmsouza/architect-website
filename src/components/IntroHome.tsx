@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Button } from './ui/button';
+import Link from 'next/link';
 
 const IntroHome = () => {
   return (
@@ -8,17 +9,22 @@ const IntroHome = () => {
         Sua casa é única
       </h1>
       <p className="text-darkBlue text-base lg:text-xl">
-        Confira nossos projetos.
+        Confira e se encante pelos nossos projetos
       </p>
-      <Button size="sm" className="flex items-center justify-center gap-4 w-44">
-        Projetos
-        <Image
-          src="../../assets/arrow-right.svg"
-          width={15}
-          height={13}
-          alt="arrow right"
-        />
-      </Button>
+      <Link href="/projects" className="w-[19%]">
+        <Button
+          size="sm"
+          className="flex items-center justify-center gap-4 w-44"
+        >
+          Projetos
+          <Image
+            src="../../assets/arrow-right.svg"
+            width={15}
+            height={13}
+            alt="arrow right"
+          />
+        </Button>
+      </Link>
     </div>
   );
 };

@@ -1,8 +1,9 @@
-import Heading from "@/components/Heading";
-import headingData from "../../static/heading-data.json";
+import Heading from '@/components/Heading';
+import headingData from '../../static/heading-data.json';
+import ProjectsList from '@/components/ProjectsList';
 
 const ProjectsPage = () => {
-  const aboutHeading = headingData.find((item) => item.href === "/projects");
+  const aboutHeading = headingData.find((item) => item.href === '/projects');
 
   if (!aboutHeading) {
     return <div>Project not found</div>;
@@ -15,7 +16,7 @@ const ProjectsPage = () => {
         subtitle={aboutHeading.subtitle}
         image={aboutHeading.image}
       />
-      Projects Page
+      <ProjectsList />
     </div>
   );
 };

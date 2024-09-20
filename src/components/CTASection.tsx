@@ -15,15 +15,12 @@ const CTASection = () => {
           contemporâneas. Valorizamos cada detalhe, buscando sempre a excelência
           em cada projeto.
         </p>
-        <Link
-          href="https://wa.me/5541988451438/?text=Olá Vanessa, gostaria de fazer uma proposta para meu projeto. Como funciona seus serviços?"
-          target="_blank"
-        >
+        <Link href="/services">
           <Button
             size="sm"
             className="flex items-center justify-center gap-3 lg:text-lg"
           >
-            Faça uma proposta
+            Conheça nossos serviços
             <Image
               src="/assets/arrow-right.svg"
               width={15}

@@ -1,8 +1,11 @@
-import Heading from "@/components/Heading";
-import headingData from "../../static/heading-data.json";
+import Heading from '@/components/Heading';
+import headingData from '../../static/heading-data.json';
+import IntroServices from '@/components/IntroServices';
+import HowItWorks from '@/components/HowItWorks';
+import ContactSection from '@/components/ContactSection';
 
 const ServicesPage = () => {
-  const aboutHeading = headingData.find((item) => item.href === "/services");
+  const aboutHeading = headingData.find((item) => item.href === '/services');
 
   if (!aboutHeading) {
     return <div>Page not found</div>;
@@ -15,7 +18,9 @@ const ServicesPage = () => {
         subtitle={aboutHeading.subtitle}
         image={aboutHeading.image}
       />
-      services page
+      <IntroServices />
+      <HowItWorks />
+      <ContactSection />
     </div>
   );
 };

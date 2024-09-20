@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Skyscraper",
+    "category": "Arquitetura",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 2,
+    "title": "Cozy Living Room",
+    "category": "Interiores",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 3,
+    "title": "Shopping Mall",
+    "category": "Comercial",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 4,
+    "title": "Sustainable Office Building",
+    "category": "Arquitetura",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 5,
+    "title": "Minimalist Kitchen",
+    "category": "Interiores",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 6,
+    "title": "Boutique Hotel Lobby",
+    "category": "Comercial",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 7,
+    "title": "Futuristic Museum",
+    "category": "Arquitetura",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 8,
+    "title": "Rustic Bedroom Suite",
+    "category": "Interiores",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 9,
+    "title": "Eco-Friendly Restaurant",
+    "category": "Comercial",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 10,
+    "title": "Urban Apartment Complex",
+    "category": "Arquitetura",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 11,
+    "title": "Modern Home Office",
+    "category": "Interiores",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 12,
+    "title": "High-Tech Gym Facility",
+    "category": "Comercial",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 13,
+    "title": "Innovative Public Library",
+    "category": "Arquitetura",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 14,
+    "title": "Scandinavian-Style Living Room",
+    "category": "Interiores",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 15,
+    "title": "Modern Art Gallery",
+    "category": "Comercial",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 16,
+    "title": "Green Rooftop Garden",
+    "category": "Arquitetura",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 17,
+    "title": "Industrial Loft Bedroom",
+    "category": "Interiores",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 18,
+    "title": "Luxury Car Showroom",
+    "category": "Comercial",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 19,
+    "title": "Floating Eco-Resort",
+    "category": "Arquitetura",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 20,
+    "title": "Zen Bathroom Retreat",
+    "category": "Interiores",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 21,
+    "title": "Innovative Co-Working Space",
+    "category": "Comercial",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 22,
+    "title": "Sustainable Community Center",
+    "category": "Arquitetura",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 23,
+    "title": "Luxury Yacht Interior",
+    "category": "Interiores",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 24,
+    "title": "Smart City Control Center",
+    "category": "Comercial",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 25,
+    "title": "Luxury Yacht Interior",
+    "category": "Interiores",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 26,
+    "title": "Smart Control Center",
+    "category": "Comercial",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 27,
+    "title": "Luxury Interior",
+    "category": "Interiores",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 28,
+    "title": "Smart City Control Center",
+    "category": "Comercial",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 29,
+    "title": "Luxury Interior",
+    "category": "Interiores",
+    "imageUrl": "/projects/project-1.png",
+    "inicials": "FM"
+  },
+  {
+    "id": 30,
+    "title": "Smart City Control Center",
+    "category": "Comercial",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 31,
+    "title": "Smart City Control Center",
+    "category": "Comercial",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 32,
+    "title": "Smart City Control Center",
+    "category": "Comercial",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  },
+  {
+    "id": 33,
+    "title": "Smart City Control Center",
+    "category": "Comercial",
+    "imageUrl": "/projects/project-2.png",
+    "inicials": "VM"
+  }
+]

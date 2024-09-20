@@ -91,7 +91,7 @@ const Navbar = () => {
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
-    <div className="bg-white h-[80px] flex items-center font-jost justify-between p-4 sm:z-[90] sm:w-full sm:px-4 md:px-[56px] lg:px-[70px] xl:px-[170px] font-poppins">
+    <div className="bg-white h-[80px] flex items-center justify-between p-4 sm:z-[90] sm:w-full sm:px-4 md:px-[56px] lg:px-[70px] xl:px-[170px] font-poppins">
       <div className="flex items-center justify-between w-full">
         {/* Hamburger menu icon, visible only on sm and below */}
         <Logo />
@@ -103,7 +103,7 @@ const Navbar = () => {
       <MobileMenu isOpen={isMenuOpen} onClose={closeMenu} />
 
       {/* Nav links, visible only on md and above */}
-      <div className="hidden md:flex md:flex-row md:items-center md:gap-10 text-darkBlue  md:leading-custom32 md:tracking-custom md:font-semibold md:text-[16px]">
+      <div className="hidden md:flex md:flex-row md:items-center md:gap-10 text-darkBlue md:leading-custom32 md:tracking-custom md:font-semibold md:text-[16px]">
         <NavLinks />
       </div>
     </div>

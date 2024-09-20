@@ -1,11 +1,11 @@
-import Link from "next/link";
-import { Button } from "./ui/button";
-import Image from "next/image";
+import Link from 'next/link';
+import { Button } from './ui/button';
+import Image from 'next/image';
 
 const ContactSection = () => {
   return (
     <div className="flex flex-col bg-bgBlue px-8 py-20 gap-11 text-center items-center">
-      <h2 className="font-dm text-white text-3xl md:text-6xl">
+      <h2 className="font-dm text-white text-3xl md:text-4xl lg:text-6xl">
         Quer fazer um projeto conosco?
       </h2>
       <p className="text-white">
@@ -22,7 +22,7 @@ const ContactSection = () => {
         >
           Faça uma proposta
           <Image
-            src="/assets/arrow-right.svg"
+            src="/assets/arrow-blue.svg"
             width={15}
             height={13}
             alt="arrow right"
