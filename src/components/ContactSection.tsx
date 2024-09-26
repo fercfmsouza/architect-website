@@ -9,7 +9,7 @@ const ContactSection = () => {
         Quer fazer um projeto conosco?
       </h2>
       <p className="text-white">
-        Entre em contato via Whatsapp que agendaremos uma reunião.
+        Entre em contato via Whatsapp para agendarmos uma reunião.
       </p>
       <Link
         href="https://wa.me/5541988451438/?text=Olá Vanessa, gostaria de fazer uma proposta para meu projeto. Como funciona seus serviços?"

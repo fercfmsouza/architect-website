@@ -32,7 +32,7 @@ const CTASection = () => {
       </div>
       <div>
         <Image
-          src="/images/project-5.png"
+          src="/projects/10.jpg"
           alt="Projeto interiores"
           width={653}
           height={700}

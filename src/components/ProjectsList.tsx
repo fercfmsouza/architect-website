@@ -19,13 +19,13 @@ interface Project {
 const projects: Project[] = projectsData as Project[];
 
 const ProjectItem = ({ title, category, imageUrl, inicials }: Project) => (
-  <div className="bg-white">
+  <div>
     <Image
       src={imageUrl}
       alt={title}
       width={580}
       height={850}
-      className="w-full object-cover"
+      className="w-full object-cover h-[380px] 2xl:h-[550px]"
     />
     <div className="flex justify-between py-4">
       <div>
@@ -77,7 +77,7 @@ const ProjectsList = () => {
           setActiveCategory(value as Category | 'Todos os Projetos');
         }}
       >
-        <TabsList className="mb-8 bg-white border-gold border-[1px] p-0 h-full sm:w-[110%] md:w-[50%] lg:w-full lg:justify-between 2xl:w-[60%]">
+        <TabsList className="mb-8 bg-white border-gold border-[1px] p-0 h-full sm:w-[110%] md:w-[50%] lg:w-full lg:justify-between 2xl:w-[70%]">
           <TabsTrigger
             className="p-[10px] text-xs text-black font-normal lg:px-[32px] lg:py-[20px] lg:text-base"
             value="Todos os Projetos"
@@ -107,7 +107,7 @@ const ProjectsList = () => {
         {/* Render the current projects based on activeCategory */}
         <TabsContent
           value={activeCategory}
-          className="flex flex-col gap-7 justify-between lg:grid lg:grid-cols-2 lg:mt-0 lg:w-full"
+          className="flex flex-col gap-7 justify-between lg:grid lg:grid-cols-2 lg:mt-0 lg:w-full "
         >
           {currentProjects.map((project) => (
             <ProjectItem key={project.id} {...project} />

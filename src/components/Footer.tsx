@@ -59,7 +59,7 @@ const Footer = () => {
       <hr />
 
       <div className="flex items-center justify-center font-jost font-light text-center text-darkGray text-xs md:text-lg">
-        <p className="flex justify-center gap-1 w-[300px] md:w-full">
+        <p className="flex justify-center gap-1 md:w-full">
           Copyright © Vanessa Maria Valaski | Designed and coded by
           <Link
             href="https://fernandasouza.vercel.app/"

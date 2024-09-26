@@ -3,18 +3,18 @@
     "title": "Serviços",
     "subtitle": "Home/ Serviços",
     "href": "/services",
-    "image": "/images/bg-services.png"
+    "image": "/images/services.png"
   },
   {
     "title": "Projetos",
     "subtitle": "Home/ Projetos",
     "href": "/projects",
-    "image": "/images/bg-projects.png"
+    "image": "/images/projects.png"
   },
   {
     "title": "Contato",
     "subtitle": "Home/ Contato",
     "href": "/contact",
-    "image": "/images/bg-contact.png"
+    "image": "/images/contact.png"
   }
 ]

@@ -1,24 +1,25 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const projects = [
   {
-    img: '/images/project-1.png',
-    title: 'Casa Marrom',
+    img: '/projects/18.jpg',
+    title: 'Residência Rústica',
     subtitle: 'Arquitetura',
   },
   {
-    img: '/images/project-2.png',
-    title: 'Suíte Master',
-    subtitle: 'Design de Interiores',
+    img: '/projects/58.jpg',
+    title: 'Sala Estar Rústica',
+    subtitle: 'Interiores',
   },
   {
-    img: '/images/project-3.png',
+    img: '/projects/16.jpg',
     title: 'Cozinha Moderna',
-    subtitle: 'Design de Interiores',
+    subtitle: 'Interiores',
   },
   {
-    img: '/images/project-4.png',
-    title: 'Casa de Pedra',
+    img: '/projects/06.jpg',
+    title: 'Residência Moderna',
     subtitle: 'Arquitetura',
   },
 ];
@@ -58,7 +59,7 @@ const ProjectsHomeSection = () => {
                 width={500}
                 height={500}
                 alt="projeto"
-                className={borderRadiusClass}
+                className={`${borderRadiusClass} object-cover w-[500px] h-[500px]`}
               />
               <div className="flex justify-between items-center">
                 <div>
@@ -69,14 +70,17 @@ const ProjectsHomeSection = () => {
                     {project.subtitle}
                   </p>
                 </div>
-                <button className="bg-bgBeige flex items-center justify-center w-10 h-10 rounded-[50%] lg:w-16 lg:h-16">
+                <Link
+                  href="/projects"
+                  className="bg-bgBeige flex items-center justify-center w-10 h-10 rounded-[50%] lg:w-16 lg:h-16 hover:bg-white hover:border-[1px] hover:border-darkGray"
+                >
                   <Image
                     src="../../assets/arrow-icon.svg"
                     width={8}
                     height={18}
                     alt="button"
                   />
-                </button>
+                </Link>
               </div>
             </div>
           );

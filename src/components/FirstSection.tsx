@@ -1,22 +1,14 @@
-import Image from 'next/image';
-import { Button } from './ui/button';
 import { Separator } from './ui/separator';
 
 const data = [
   {
     title: 'Arquitetura',
-    description:
-      'It is a long established fact that a reader will be distracted by the of readable content of a page.',
   },
   {
     title: 'Interiores',
-    description:
-      'It is a long established fact that a reader will be distracted by the of readable content of a page.',
   },
   {
     title: 'Comercial',
-    description:
-      'It is a long established fact that a reader will be distracted by the of readable content of a page.',
   },
 ];
 
