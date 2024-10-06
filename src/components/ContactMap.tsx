@@ -24,30 +24,40 @@ const ContactMap = () => {
                 alt="email icon"
                 width={52}
                 height={52}
+                className="w-[42px] h-[42px]"
               />
               vanessamariavalaski@gmail.com
             </a>
           </div>
           <div>
-            <a href="/" className="flex items-center gap-4">
+            <a
+              href="https://wa.me/5541988451438/?text=Olá Vanessa, gostaria de fazer uma proposta para meu projeto. Como funciona seus serviços?"
+              className="flex items-center gap-4 hover:text-gold"
+              target="_blank"
+            >
               <Image
                 src="/assets/phone.png"
                 alt="email icon"
                 width={52}
                 height={52}
+                className="w-[42px] h-[42px]"
               />
               +55 (41) 98845-1438
             </a>
           </div>
           <div>
-            <a href="/" className="flex items-center gap-4">
+            <a
+              href="https://www.vmvarquitetura.com.br"
+              className="flex items-center gap-4 hover:text-gold"
+            >
               <Image
                 src="/assets/site.png"
                 alt="email icon"
                 width={52}
                 height={52}
+                className="w-[42px] h-[42px]"
               />
-              www.vanessavalaski.com
+              www.vmvarquitetura.com.br
             </a>
           </div>
           <div className="flex gap-6 items-center">

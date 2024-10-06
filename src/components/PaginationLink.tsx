@@ -18,7 +18,7 @@ const PaginationLink: React.FC<PaginationLinkProps> = ({
         href={href}
         {...props}
         className={cn(
-          'rounded-[50%] p-3 flex justify-center items-center w-[52px] h-52px]',
+          'rounded-[50%] p-3 flex justify-center items-center w-[40px] h-[40px] md:w-[52px] md:h-[52px]',
           isActive
             ? 'bg-bgBeige text-black'
             : 'bg-white text-black border-[1px] border-gold hover:bg-bgBeige hover:border-none'

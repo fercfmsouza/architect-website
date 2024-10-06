@@ -1,332 +1,430 @@
 [
   {
     "id": 1,
-    "title": "Residência Moderna",
+    "title": "Residência R&F",
     "category": "Arquitetura",
     "imageUrl": "/projects/03.jpg",
-    "inicials": "FM"
+    "inicials": "RF"
   },
   {
     "id": 2,
-    "title": "Residência Moderna",
+    "title": "Residência R&J",
     "category": "Arquitetura",
     "imageUrl": "/projects/01.jpg",
-    "inicials": "VM"
+    "inicials": "RJ"
   },
   {
     "id": 3,
-    "title": "Shopping Mall",
+    "title": "Interiores F&R",
     "category": "Interiores",
     "imageUrl": "/projects/10.jpg",
-    "inicials": "FM"
+    "inicials": "FR"
   },
   {
     "id": 4,
-    "title": "Sustainable Office Building",
+    "title": "Residência R&F",
     "category": "Arquitetura",
     "imageUrl": "/projects/05.jpg",
-    "inicials": "VM"
+    "inicials": "RF"
   },
   {
     "id": 5,
-    "title": "Minimalist Kitchen",
+    "title": "Residência F&R",
     "category": "Arquitetura",
     "imageUrl": "/projects/07.jpg",
-    "inicials": "FM"
+    "inicials": "FR"
   },
   {
     "id": 6,
-    "title": "Boutique Hotel Lobby",
+    "title": "Cozinha F&R",
     "category": "Interiores",
     "imageUrl": "/projects/16.jpg",
-    "inicials": "VM"
+    "inicials": "FR"
   },
   {
     "id": 7,
-    "title": "Futuristic Museum",
+    "title": "Residência R&F",
     "category": "Arquitetura",
     "imageUrl": "/projects/08.jpg",
-    "inicials": "FM"
+    "inicials": "RF"
   },
   {
     "id": 8,
-    "title": "Rustic Bedroom Suite",
+    "title": "Interiores R&C",
     "category": "Interiores",
     "imageUrl": "/projects/58.jpg",
-    "inicials": "VM"
+    "inicials": "RC"
   },
   {
     "id": 10,
-    "title": "Urban Apartment Complex",
+    "title": "Interiores Cozinha M",
     "category": "Interiores",
     "imageUrl": "/projects/11.jpg",
-    "inicials": "VM"
+    "inicials": "CM"
   },
   {
     "id": 11,
-    "title": "Modern Home Office",
+    "title": "Loja Empodere-se",
     "category": "Comercial",
     "imageUrl": "/projects/12.jpg",
-    "inicials": "FM"
+    "inicials": "LE"
   },
   {
     "id": 12,
-    "title": "High-Tech Gym Facility",
+    "title": "Suíte D&E",
     "category": "Interiores",
     "imageUrl": "/projects/13.jpg",
-    "inicials": "VM"
+    "inicials": "DE"
   },
   {
     "id": 13,
-    "title": "Innovative Public Library",
+    "title": "Quarto Infantil D&E",
     "category": "Interiores",
     "imageUrl": "/projects/14.jpg",
-    "inicials": "FM"
+    "inicials": "DE"
   },
   {
     "id": 14,
-    "title": "Scandinavian-Style Living Room",
+    "title": "Studio L",
     "category": "Comercial",
     "imageUrl": "/projects/15.jpg",
-    "inicials": "VM"
+    "inicials": "SL"
   },
   {
     "id": 16,
-    "title": "Green Rooftop Garden",
+    "title": "Quarto Infantil D&E",
     "category": "Interiores",
     "imageUrl": "/projects/17.jpg",
-    "inicials": "VM"
+    "inicials": "DE"
   },
   {
     "id": 17,
-    "title": "Industrial Loft Bedroom",
+    "title": "Residência D&E",
     "category": "Arquitetura",
     "imageUrl": "/projects/18.jpg",
-    "inicials": "FM"
+    "inicials": "DE"
   },
   {
     "id": 18,
-    "title": "Luxury Car Showroom",
+    "title": "Loja Empodere-se",
     "category": "Comercial",
     "imageUrl": "/projects/19.jpg",
-    "inicials": "VM"
+    "inicials": "LE"
   },
   {
     "id": 19,
-    "title": "Floating Eco-Resort",
+    "title": "Studio L",
     "category": "Comercial",
     "imageUrl": "/projects/20.jpg",
-    "inicials": "FM"
+    "inicials": "SL"
   },
   {
     "id": 20,
-    "title": "Zen Bathroom Retreat",
+    "title": "Quarto Infantil D&E",
     "category": "Interiores",
     "imageUrl": "/projects/21.jpg",
-    "inicials": "VM"
+    "inicials": "DE"
   },
   {
     "id": 21,
-    "title": "Innovative Co-Working Space",
+    "title": "Suíte D&E",
     "category": "Interiores",
     "imageUrl": "/projects/22.jpg",
-    "inicials": "FM"
+    "inicials": "DE"
   },
   {
     "id": 22,
-    "title": "Sustainable Community Center",
+    "title": "Residência F&R",
     "category": "Arquitetura",
     "imageUrl": "/projects/23.jpg",
-    "inicials": "VM"
+    "inicials": "FR"
   },
   {
     "id": 23,
-    "title": "Luxury Yacht Interior",
+    "title": "Suíte D&E",
     "category": "Interiores",
     "imageUrl": "/projects/24.jpg",
-    "inicials": "FM"
+    "inicials": "DE"
   },
   {
     "id": 24,
-    "title": "Smart City Control Center",
+    "title": "Studio L",
     "category": "Comercial",
     "imageUrl": "/projects/25.jpg",
-    "inicials": "VM"
+    "inicials": "SL"
   },
   {
     "id": 25,
-    "title": "Luxury Yacht Interior",
+    "title": "Suíte D&E",
     "category": "Interiores",
     "imageUrl": "/projects/26.jpg",
-    "inicials": "FM"
+    "inicials": "DE"
   },
   {
     "id": 26,
-    "title": "Smart Control Center",
+    "title": "Residência D&E",
     "category": "Arquitetura",
     "imageUrl": "/projects/27.jpg",
-    "inicials": "VM"
+    "inicials": "DE"
   },
   {
     "id": 27,
-    "title": "Luxury Interior",
+    "title": "Sala e Cozinha D&E",
     "category": "Interiores",
     "imageUrl": "/projects/28.jpg",
-    "inicials": "FM"
+    "inicials": "DE"
   },
   {
     "id": 28,
-    "title": "Smart City Control Center",
+    "title": "Sala e Cozinha D&E",
     "category": "Interiores",
     "imageUrl": "/projects/29.jpg",
-    "inicials": "VM"
+    "inicials": "DE"
   },
   {
     "id": 29,
-    "title": "Luxury Interior",
+    "title": "Sala e Cozinha D&E",
     "category": "Interiores",
     "imageUrl": "/projects/30.jpg",
-    "inicials": "FM"
+    "inicials": "DE"
   },
   {
     "id": 30,
-    "title": "Smart City Control Center",
+    "title": "Sala e Cozinha D&E",
     "category": "Interiores",
     "imageUrl": "/projects/31.jpg",
-    "inicials": "VM"
+    "inicials": "DE"
   },
   {
     "id": 31,
-    "title": "Smart City Control Center",
+    "title": "Loja Empodere-se",
     "category": "Comercial",
     "imageUrl": "/projects/32.jpg",
-    "inicials": "VM"
+    "inicials": "LE"
   },
   {
     "id": 32,
-    "title": "Smart City Control Center",
+    "title": "Loja Empodere-se",
     "category": "Comercial",
     "imageUrl": "/projects/33.jpg",
-    "inicials": "VM"
+    "inicials": "LE"
   },
   {
     "id": 33,
-    "title": "Smart City Control Center",
+    "title": "Loja Empodere-se",
     "category": "Comercial",
     "imageUrl": "/projects/34.jpg",
-    "inicials": "VM"
+    "inicials": "LE"
   },
   {
     "id": 34,
-    "title": "Smart City Control Center",
+    "title": "Interiores D&E",
     "category": "Interiores",
     "imageUrl": "/projects/35.jpg",
-    "inicials": "VM"
+    "inicials": "DE"
   },
   {
     "id": 35,
-    "title": "Smart City Control Center",
+    "title": "Interiores D&E",
     "category": "Interiores",
     "imageUrl": "/projects/36.jpg",
-    "inicials": "VM"
+    "inicials": "DE"
   },
   {
     "id": 36,
-    "title": "Smart City Control Center",
+    "title": "Salão Maria Bonita",
     "category": "Comercial",
     "imageUrl": "/projects/37.jpg",
-    "inicials": "VM"
+    "inicials": "MB"
   },
   {
     "id": 37,
-    "title": "Smart City Control Center",
+    "title": "Piscina e Paisagismo E&C",
     "category": "Arquitetura",
     "imageUrl": "/projects/38.jpg",
-    "inicials": "VM"
+    "inicials": "EC"
   },
   {
     "id": 38,
-    "title": "Smart City Control Center",
+    "title": "Piscina e Paisagismo E&C",
     "category": "Arquitetura",
     "imageUrl": "/projects/39.jpg",
-    "inicials": "VM"
+    "inicials": "EC"
   },
   {
     "id": 39,
-    "title": "Smart City Control Center",
+    "title": "Salão Maria Bonita",
     "category": "Comercial",
     "imageUrl": "/projects/40.jpg",
-    "inicials": "VM"
+    "inicials": "MB"
   },
   {
     "id": 40,
-    "title": "Smart City Control Center",
+    "title": "Salão Maria Bonita",
     "category": "Comercial",
     "imageUrl": "/projects/41.jpg",
-    "inicials": "VM"
+    "inicials": "MB"
   },
 
   {
     "id": 41,
-    "title": "Smart City Control Center",
+    "title": "Interiores Cozinha",
     "category": "Interiores",
     "imageUrl": "/projects/42.jpg",
-    "inicials": "VM"
+    "inicials": "IC"
   },
   {
     "id": 42,
-    "title": "Smart City Control Center",
+    "title": "Interiores Cozinha",
     "category": "Interiores",
     "imageUrl": "/projects/43.jpg",
-    "inicials": "VM"
+    "inicials": "IC"
   },
   {
     "id": 43,
-    "title": "Smart City Control Center",
+    "title": "Interiores Cozinha",
     "category": "Interiores",
     "imageUrl": "/projects/44.jpg",
-    "inicials": "VM"
+    "inicials": "IC"
   },
   {
     "id": 44,
-    "title": "Smart City Control Center",
+    "title": "Studio L",
     "category": "Comercial",
     "imageUrl": "/projects/45.jpg",
-    "inicials": "VM"
+    "inicials": "SL"
   },
   {
     "id": 45,
-    "title": "Smart City Control Center",
+    "title": "Salão Maria Bonita",
     "category": "Comercial",
     "imageUrl": "/projects/46.jpg",
-    "inicials": "VM"
+    "inicials": "MB"
   },
   {
     "id": 46,
-    "title": "Smart City Control Center",
+    "title": "Interiores Cozinha",
     "category": "Interiores",
     "imageUrl": "/projects/47.jpg",
-    "inicials": "VM"
+    "inicials": "IC"
   },
   {
     "id": 47,
-    "title": "Smart City Control Center",
+    "title": "Churrasqueira",
     "category": "Interiores",
     "imageUrl": "/projects/48.jpg",
-    "inicials": "VM"
+    "inicials": "CM"
   },
   {
     "id": 48,
-    "title": "Smart City Control Center",
+    "title": "Interiores Cozinha",
     "category": "Interiores",
     "imageUrl": "/projects/49.jpg",
-    "inicials": "VM"
+    "inicials": "IC"
   },
   {
     "id": 49,
-    "title": "Smart City Control Center",
+    "title": "Salão Maria Bonita",
     "category": "Comercial",
     "imageUrl": "/projects/50.jpg",
-    "inicials": "VM"
+    "inicials": "MB"
+  },
+  {
+    "id": 50,
+    "title": "Residência RJ",
+    "category": "Arquitetura",
+    "imageUrl": "/projects/02.jpg",
+    "inicials": "RJ"
+  },
+  {
+    "id": 51,
+    "title": "Loja Vicca",
+    "category": "Comercial",
+    "imageUrl": "/projects/09.jpg",
+    "inicials": "RJ"
+  },
+  {
+    "id": 52,
+    "title": "Lavanderia M",
+    "category": "Interiores",
+    "imageUrl": "/projects/51.jpg",
+    "inicials": "LM"
+  },
+  {
+    "id": 53,
+    "title": "Interiores Cozinha",
+    "category": "Interiores",
+    "imageUrl": "/projects/52.jpg",
+    "inicials": "IC"
+  },
+  {
+    "id": 54,
+    "title": "Interiores Cozinha",
+    "category": "Interiores",
+    "imageUrl": "/projects/53.jpg",
+    "inicials": "IC"
+  },
+  {
+    "id": 55,
+    "title": "Lavanderia",
+    "category": "Interiores",
+    "imageUrl": "/projects/54.jpg",
+    "inicials": "IL"
+  },
+  {
+    "id": 56,
+    "title": "Lavanderia",
+    "category": "Interiores",
+    "imageUrl": "/projects/55.jpg",
+    "inicials": "IL"
+  },
+  {
+    "id": 57,
+    "title": "Interiores R&C",
+    "category": "Interiores",
+    "imageUrl": "/projects/56.jpg",
+    "inicials": "RC"
+  },
+  {
+    "id": 58,
+    "title": "Interiores R&C",
+    "category": "Interiores",
+    "imageUrl": "/projects/57.jpg",
+    "inicials": "RC"
+  },
+  {
+    "id": 60,
+    "title": "Residência G&J",
+    "category": "Arquitetura",
+    "imageUrl": "/projects/59.jpg",
+    "inicials": "GJ"
+  },
+  {
+    "id": 61,
+    "title": "Residência G&J",
+    "category": "Arquitetura",
+    "imageUrl": "/projects/60.jpg",
+    "inicials": "GJ"
+  },
+  {
+    "id": 62,
+    "title": "Interiores R&C",
+    "category": "Interiores",
+    "imageUrl": "/projects/61.jpg",
+    "inicials": "RC"
+  },
+  {
+    "id": 63,
+    "title": "Piscina e Paisagismo E&C",
+    "category": "Arquitetura",
+    "imageUrl": "/projects/62.jpg",
+    "inicials": "EC"
+  },
+  {
+    "id": 64,
+    "title": "Piscina e Paisagismo E&C",
+    "category": "Arquitetura",
+    "imageUrl": "/projects/63.jpg",
+    "inicials": "EC"
   }
 ]

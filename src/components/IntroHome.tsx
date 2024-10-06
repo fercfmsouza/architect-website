@@ -5,7 +5,7 @@ import Link from 'next/link';
 const IntroHome = () => {
   return (
     <div className="bg-custom-bg-home relative bg-cover bg-left-top h-[570px] pt-[80px] lg:h-[600px] flex flex-col px-8 gap-4 md:px-[56px] md:rounded-bl-[120px] lg:rounded-bl-[160px] lg:px-[170px]">
-      <h1 className="text-6xl font-dm font-normal text-bgBlue lg:text-8xl lg:w-[50%]">
+      <h1 className="text-6xl font-dm font-normal text-bgBlue lg:text-[108px] lg:w-[40%]">
         Sua casa é única
       </h1>
       <p className="text-darkBlue text-base lg:text-xl w-[60%] lg:w-[30%]">

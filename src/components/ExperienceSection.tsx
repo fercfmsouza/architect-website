@@ -1,32 +1,34 @@
-import { Separator } from "@/components/ui/separator";
+import { Separator } from '@/components/ui/separator';
 
 const data = [
   {
     number: 10,
-    title: "Anos de experiência",
+    title: 'Anos de experiência',
   },
   {
     number: 120,
-    title: "Projetos entregues",
+    title: 'Projetos entregues',
   },
   {
     number: 15,
-    title: "Projetos em andamento",
+    title: 'Projetos em andamento',
   },
   {
     number: 120,
-    title: "Clientes felizes",
+    title: 'Clientes felizes',
   },
 ];
 
 const ExperienceSection = () => {
   return (
-    <div className="mt-12 flex flex-col items-center justify-center gap-8 text-center bg-bgBeige h-[450px] md:flex-row">
+    <div className="mt-12 flex flex-col h-[600px] items-center justify-center gap-8 text-center bg-bgBeige md:h-[450px] md:flex-row">
       {data.map((item, index) => (
         <div key={item.title} className="md:flex md:items-center md:gap-7">
-          <div>
-            <h2 className="text-gold font-dm text-4xl">{item.number}</h2>
-            <p className="text-darkGray text-sm font-light pb-4">
+          <div className="flex flex-col gap-3">
+            <h2 className="text-gold font-dm text-4xl lg:text-5xl">
+              {item.number}
+            </h2>
+            <p className="text-darkGray text-sm font-light pb-4 lg:text-lg">
               {item.title}
             </p>
           </div>

@@ -50,9 +50,13 @@ const Footer = () => {
           >
             vanessamariavalaski@gmail.com
           </a>
-          <p className="font-jost text-sm md:text-lg text-darkGray">
-            (+55) 41 99924-5567
-          </p>
+          <a
+            href="https://wa.me/5541988451438/?text=Olá Vanessa, gostaria de fazer uma proposta para meu projeto. Como funciona seus serviços?"
+            className="font-jost text-sm md:text-lg text-darkGray hover:text-gold"
+            target="_blank"
+          >
+            +55 (41) 98845-1438
+          </a>
         </div>
       </div>
 

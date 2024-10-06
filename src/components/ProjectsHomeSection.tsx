@@ -4,22 +4,22 @@ import Link from 'next/link';
 const projects = [
   {
     img: '/projects/18.jpg',
-    title: 'Residência Rústica',
+    title: 'Residência D&E',
     subtitle: 'Arquitetura',
   },
   {
     img: '/projects/58.jpg',
-    title: 'Sala Estar Rústica',
+    title: 'Interiores E&C',
     subtitle: 'Interiores',
   },
   {
     img: '/projects/16.jpg',
-    title: 'Cozinha Moderna',
+    title: 'Interiores F&R',
     subtitle: 'Interiores',
   },
   {
     img: '/projects/06.jpg',
-    title: 'Residência Moderna',
+    title: 'Residência R&F',
     subtitle: 'Arquitetura',
   },
 ];

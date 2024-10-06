@@ -18,7 +18,14 @@ interface Project {
 
 const projects: Project[] = projectsData as Project[];
 
-const ProjectItem = ({ title, category, imageUrl, inicials }: Project) => (
+interface ProjectProps {
+  title: string;
+  category: 'Arquitetura' | 'Interiores' | 'Comercial';
+  imageUrl: string;
+  inicials: string;
+}
+
+const ProjectItem = ({ title, category, imageUrl, inicials }: ProjectProps) => (
   <div>
     <Image
       src={imageUrl}
@@ -26,6 +33,9 @@ const ProjectItem = ({ title, category, imageUrl, inicials }: Project) => (
       width={580}
       height={850}
       className="w-full object-cover h-[380px] 2xl:h-[550px]"
+      placeholder="blur" // Use 'blur' for a placeholder effect
+      blurDataURL={imageUrl} // Fallback to the same image as a placeholder
+      loading="lazy" // Lazy load the images by default
     />
     <div className="flex justify-between py-4">
       <div>
@@ -116,7 +126,7 @@ const ProjectsList = () => {
       </Tabs>
 
       {/* Pagination Component */}
-      <div className="flex gap-3 justify-center items-center h-[52px]">
+      <div className="flex gap-3 justify-center items-center h-[52px] flex-wrap">
         {Array.from({ length: totalPages }, (_, index) => (
           <PaginationLink
             key={index + 1}
