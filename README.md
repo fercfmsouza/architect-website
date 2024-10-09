@@ -23,4 +23,4 @@ Check out the live site here: [VMV Arquitetura](https://www.vmvarquitetura.com.b
 
 ## Demo
 
-![Demo Screenshot](./vmv-demo.png)
+![Demo Screenshot](././public/vmv-demo.png)
