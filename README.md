@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Architectural Website
 
-## Getting Started
+An architectural website built using **TypeScript**, **React**, **Next.js**, **Tailwind CSS**, and components from **shadcn/ui**. The project also integrates **Google Maps** to display location-based information.
 
-First, run the development server:
+Check out the live site here: [VMV Arquitetura](https://www.vmvarquitetura.com.br/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Responsive Design**: Mobile-first, fully responsive layout using Tailwind CSS.
+- **Reusable Components**: Custom UI components from shadcn/ui.
+- **Location Integration**: Embedded Google Maps for location display.
+- **Fast and Efficient**: Optimized for speed with Next.js features like static generation and server-side rendering.
+- **Type-Safe Development**: TypeScript provides type safety and better developer experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **TypeScript**: For type-safe code and improved development experience.
+- **React**: Component-based UI development.
+- **Next.js**: React framework with built-in SSR and routing.
+- **Tailwind CSS**: Utility-first CSS framework for rapid styling.
+- **shadcn/ui**: Pre-built React components for enhanced UI.
+- **Google Maps API**: For embedding interactive maps.
 
-## Learn More
+## Demo
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Demo Screenshot](./vmv-demo.png)
